@@ -1,0 +1,246 @@
+.AddressCont {
+    border: 1px ridge rgba(0, 0, 0, 0.2);
+    box-shadow: 0vw 0vw 10px 2px gray;
+    padding: 1vw;
+    border-radius: 1vw;
+    display: grid;
+    grid-template-columns: 85% 15%
+}
+
+.AddressCountry {
+    font-size: 2em;
+    font-weight: 500
+}
+
+.AddressOther {
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+}
+
+.bi-trash-fill {
+    fill: red !important;
+    width: 4vw;
+    height: 4vw
+}
+
+.SignUpFormWrapper {
+    width: 80vw;
+    margin-top: 10%;
+    padding: 5%;
+    border: solid;
+    border-color: black;
+    background-image: url('./back.webp');
+}
+
+.BackWrapper {
+    background-image: url('/src/static/back.gif');
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    align-items: last baseline !important;
+}
+
+.Subhead {
+    display: grid;
+    min-height: 20vh;
+    align-items: last baseline;
+}
+
+.GrayBack {
+    background-color: rgba(10, 10, 10, 0.1);
+    padding: 1vw
+}
+
+.Price {
+    font-size: 1.4em;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.BigText {
+    font-size: 8vw;
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(red, black, white);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.CatWrapper {
+    align-self: last baseline;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.SideBySide {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2vmin;
+}
+
+.SideBySideResponsive {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2vmin;
+}
+
+.SmallImg {
+    width: 10vw;
+    height: 10vw;
+}
+
+.ProdImage {
+    width: 50vw;
+    height: 50vw;
+}
+
+.CatLink {
+    color: white;
+    text-decoration: none;
+}
+
+.CatLinkBlack {
+    color: black;
+    text-decoration: none;
+}
+
+.mainWrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.IndexProdList {
+    display: flex;
+    overflow-x: scroll;
+    gap: 1vmin;
+}
+
+.IndexCatName {
+    color: white;
+    background-color: black;
+    padding-left: 5vw;
+}
+
+.SingleIndexProdMAIN {
+    width: 10vw;
+    height: 12vw;
+}
+
+.SingleIndexProdCAT {
+    width: 20vw;
+    height: 24vw;
+}
+
+.LoadingImageA {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(150, 150, 150, 0.8);
+    opacity: 1
+}
+
+.centerText {
+    text-align: center;
+}
+
+.CatLink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.PriceAndCartCont {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 1vh 2vw;
+}
+
+* {
+    padding: 0 0.1vmin;
+
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.ProductCard {
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5), -2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.Icon {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.CenterHorizontally {
+    display: grid;
+    justify-content: center;
+}
+
+.AddToCartWrapper {
+    border-radius: 5vw;
+    width: 100%;
+}
+
+.CenterVertically {
+    display: grid;
+    align-items: center;
+}
+
+.NoTextOverflow {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.BodyGridCont {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+.CatSlugWrapper {
+    min-height: 30vh;
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+}
+
+.HideX {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.ShowLoading {
+    opacity: 1;
+}
+
+@media screen and (max-width:610px) {
+    .BodyGridCont {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .SingleIndexProdCAT {
+        width: 50vw;
+        height: 42vw;
+    }
+
+    .SingleIndexProdMAIN {
+        width: 20vw;
+        height: 24vw;
+    }
+
+    .PriceAndCartCont {
+        grid-template-columns: 60% 40%;
+        padding: 1vh 2vw;
+    }
+
+    .SideBySideResponsive {
+        grid-template-columns: 100%;
+    }
+}
