@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/elixir/static/css/main.ac472a37.css",
+    "main.css": "/elixir/static/css/main.9c6a1a8d.css",
     "main.js": "/elixir/static/js/main.4d822517.js",
     "static/js/453.112f0570.chunk.js": "/elixir/static/js/453.112f0570.chunk.js",
-    "static/media/back.gif": "/elixir/static/media/back.52bdf80a01b5a6431a52.gif",
+    "static/media/back.gif": "/elixir/static/media/back.8bfedb6baed67fed7513.gif",
     "static/media/back.webp": "/elixir/static/media/back.36d15bb1066ab32feba0.webp",
     "index.html": "/elixir/index.html",
-    "main.ac472a37.css.map": "/elixir/static/css/main.ac472a37.css.map",
+    "main.9c6a1a8d.css.map": "/elixir/static/css/main.9c6a1a8d.css.map",
     "main.4d822517.js.map": "/elixir/static/js/main.4d822517.js.map",
     "453.112f0570.chunk.js.map": "/elixir/static/js/453.112f0570.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac472a37.css",
+    "static/css/main.9c6a1a8d.css",
     "static/js/main.4d822517.js"
   ]
 }
