@@ -1,4 +1,5 @@
 {
+  "homepage": "https://theelixirbrand.github.io/storefront",
   "name": "storefront",
   "version": "0.1.0",
   "private": true,
@@ -49,8 +50,5 @@
       "REACT_APP_ATCB",
       "REACT_APP_CCB"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
