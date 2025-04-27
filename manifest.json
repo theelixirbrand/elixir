@@ -1,19 +1,19 @@
 {
-  "short_name": "Market Place",
-  "name": "Online Peer to Peer Marketplace.",
+  "short_name": "THE ELIXIR BRAND",
+  "name": "Online beauty store.",
   "icons": [
     {
-      "src": "fac.png",
+      "src": "fac.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/jpg"
     },
     {
-      "src": "logo.png",
-      "type": "image/png",
+      "src": "fac.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
+      "src": "fac.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
